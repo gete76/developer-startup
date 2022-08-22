@@ -1,0 +1,28 @@
+replace list
+AUTO_INCREMENT  PRIMARY KEY
+datetime   timestamp 
+remove PRIMARY KEY types at the bottom
+tinyint smallint
+
+add
+drop schema public cascade;
+create schema public;
+
+
+remove "unsigned"
+remove UNIQUE KEY and add UNIQUE to column
+
+
+commands
+
+mysqldump --no-create-info --no-create-db --no-set-names --no-tablespaces --skip-add-locks \
+--compatible ansi --skip-comments --skip-quote-names --skip-set-charset --skip-triggers -u mo -pmo --databases mo_development > dump.sql
+
+dump notes
+
+\\(?=')  with blank
+
+find (?<!,)'(?=,)|(?<=,)'|'(?=\))  replace with $text$
+find ()
+
+
