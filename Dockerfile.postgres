@@ -1,0 +1,5 @@
+FROM postgis/postgis:14-3.2-alpine
+ENV PGDATA /data
+ENV POSTGRES_DB mo_development
+ENV POSTGRES_PASSWORD mo_development
+EXPOSE 5432

@@ -1,0 +1,12 @@
+\d
+\q
+\q
+\q
+\dt
+\q
+\q
+\dt
+\q
+create database mo_development;
+use mo_development;
+\s mo_develoment;

@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  db:
+    image: mushroom-observer/mo-postgres:v1.0.0
+    container_name: mo_db
+    ports:
+      - 5432:5432
+
